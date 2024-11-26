@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               //close the box
               Navigator.pop(context);
             },
-            child: Text("Add"),
+            child: const Text("Add"),
           )
         ],
       ),
@@ -57,6 +57,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text("Notes"),
         centerTitle: true,
+        bottom: const Text("Hello"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: openNoteBox,
